@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+}
+.container{
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    background-color: #fff;
+    border-radius: 23px;
+    position: relative;
+    padding-bottom: 0px;
+    margin-top: 90px;
+}
+.img1{
+    position: relative;
+    bottom: 110px;
+}
+.img2{
+    position: relative;
+    bottom: 200px;
+    left: 19px;
+}
+.textZone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* border:3px solid red; */
+    bottom: 170px;
+
+}
+.faq{
+    width: 327px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color:#1E1F36;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 30px;
+}
+.box{
+    width: 279px;
+    height: 34px;
+    display: flex;
+}
+.box1, .box2, .box3, .box4, .box5{
+    border-bottom: 1px solid #E8E8EA;
+    display: flex;
+    flex-direction: column;
+}
+.arrow{
+    width: 10px;
+    height: 8px;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    width: 279px;
+    height: 34px;
+}
+.quesT{
+    color: #4B4C5F;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.quesT:hover{
+    color: #F47B56;
+    cursor: pointer;
+    transition: 1s;
+}
+  .arrow:hover{
+    cursor: pointer;
+  }
+.answ{
+    color:#787887;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.answer{
+    display: none;
+}
+.box.active .answer{
+    display: block;
+}
+.box.active .arrow{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+.box.active .quesT{
+    color: #1E1F36;
+    font-weight: 700;
+}
