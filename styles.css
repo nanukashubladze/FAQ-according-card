@@ -20,7 +20,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     background-color: #fff;
     border-radius: 23px;
     position: relative;
@@ -67,7 +67,7 @@ h1{
 }
 .box{
     width: 279px;
-    height: 34px;
+    /* height: 34px; */
     display: flex;
 }
 .box1, .box2, .box3, .box4, .box5{
@@ -83,7 +83,7 @@ h1{
     display: flex;
     justify-content: space-between;
     width: 279px;
-    height: 34px;
+    /* height: 34px; */
 }
 .quesT{
     color: #4B4C5F;
